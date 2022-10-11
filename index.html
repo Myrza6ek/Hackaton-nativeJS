@@ -4,10 +4,178 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Instagram</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+    <div class="main-container">
+      <!-- !nav start -->
+      <nav>
+        <div class="nav-logo">
+          <img
+            class="img-nav-logo"
+            src="./media/Instagram_logo.svg.png"
+            alt="Instagram"
+          />
+        </div>
+        <div class="nav-search">
+          <input id="inpSearch" type="text" placeholder="Поиск" />
+          <img
+            src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+            alt=""
+            width="20px"
+          />
+        </div>
+        <div class="nav-icons">
+          <img id="home" src="./media/Home.png" alt="home" width="20px" />
+          <img src="./media/message.png" alt="message" width="20px" />
+          <img
+            id="add_post"
+            src="./media/add.png"
+            alt="add post"
+            width="20px"
+          />
+          <img src="./media/profile.png" alt="profile" width="20px" />
+        </div>
+      </nav>
+      <!-- ! nav end -->
+
+      <!-- todo ========== Read Start ====== -->
+
+      <!--! content start  -->
+      <section class="section-content">
+        <div class="left">
+          <!-- <div class="content-main">
+            <div class="content-nav">
+              <img src="" alt="avatar" />
+              <p>текст из инпута пользователя</p>
+            </div>
+            <div class="content-profile">
+              <div class="content-image">
+                <img
+                  width="350px"
+                  src="https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg"
+                  alt="из инпута img"
+                />
+              </div>
+            </div>
+            <div class="container-like-comment">
+              <div class="like-comment-icons">
+                <img src="./media/like-1.png" alt="like" width="18px" />
+                <img
+                  src="./media/photo_2022-10-11_14-45-41.jpg"
+                  alt="comment"
+                  width="18px"
+                />
+                <img src="./media/message.png" alt="messg" width="15px" />
+              </div>
+              <div>
+                <img
+                  id="other"
+                  src="./media/photo_2022-10-11_14-45-19.jpg"
+                  alt="other"
+                  width="18px"
+                />
+              </div>
+            </div>
+            <div class="content-description">
+              <h4>название аккаунта</h4>
+
+              <p class="content-description-text">текст из инпута описание</p>
+            </div>
+            <div class="content-comments">
+              <p class="comments">текст из инпута комент</p>
+            </div>
+          </div> -->
+        </div>
+        <!-- ! ========== Paginate Start ====== -->
+        <div class="paginate">
+          <button id="prev-btn">prev</button>
+          <button id="next-btn">next</button>
+        </div>
+        <!-- ? ========== Paginate End ====== -->
+        <!-- todo read end -->
+        <!-- ! profisle section -->
+        <div class="section-profile">
+          profile
+          <h4>название аккунта пользователя</h4>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <!-- ! footer -->
+          <footer>
+            <div class="footer_text">
+              <ul>
+                <li>Информация</li>
+                <li>Помощь</li>
+                <li>Пресса</li>
+                <li>API</li>
+                <li>Вакансии</li>
+                <li>Конфидициальность</li>
+                <li>Условия</li>
+                <li>Места</li>
+                <li>Язык</li>
+              </ul>
+              <h5 class="©_2022">© 2022 INSTAGRAM FROM META</h5>
+            </div>
+          </footer>
+        </div>
+      </section>
+      <!-- ? content end -->
+    </div>
+    <!--! modal wind start  -->
+    <section class="modal-wind-main">
+      <div class="modal-wind">
+        <div class="modal-wind-nav">
+          <button id="close">X</button>
+          <h3>Создать публикацию</h3>
+          <button id="add_post_1">поделиться</button>
+        </div>
+        <div class="modal-img">
+          <input id="inp-modal-img" type="url" placeholder="URL of image" />
+          <div class="modal-description">
+            <img src="" alt="avatar пользователя" />
+            <h3>profile_name</h3>
+            <input
+              id="inpModalText"
+              style="width: 100%; height: 100px"
+              type="text"
+              placeholder="add description"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! modal wind end  -->
+    <!--! modal wind  2   start  -->
+    <section class="modal-wind-main-2">
+      <div class="modal-wind-2">
+        <div class="modal-wind-nav-2">
+          <button id="close-2">Отмена</button>
+          <h3>Редактировать публикацию</h3>
+          <button id="add_post_1-2">Готово</button>
+        </div>
+        <div class="modal-img-2">
+          <div class="modal-description-2">
+            <img src="" alt="avatar пользователя" />
+            <h3>profile_name</h3>
+            <input
+              id="inpModalText-2"
+              style="width: 100%; height: 100px"
+              type="text"
+              placeholder="предыдущий пост"
+            />
+            <button id="delete">Удалить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! modal wind  2  end  -->
     <script src="./js/main.js"></script>
   </body>
 </html>
